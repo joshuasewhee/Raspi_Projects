@@ -6,21 +6,15 @@
 # The image will be saved as the effect's name followed by
 # the date and time when the picture was taken
 
-# version 1: simple menu
+"""
+Brief summary of program:
+This code displays the options available for the user to select before taking a picture.
+After an effect is selected, the camera preview turns on and the picture is taken after a small delay (2 seconds).
+The pictures is named by the effect applied on the picture, the date and the time during which the picture was taken.
+To exit the program, type 'exit'."
+"""
 
-# version 2:
-# added a function for the camera menu
-# change if statements in while loop to make it more efficient
-
-# version 3:
-# added text to image for brightness, constrast and max_res
-# added delay to control time before taking picture in all modes
-
-# version 4:
-# made path easily editable
-# fixed camera having effects overlaying on top of each other
-
-# import necessay libraries
+# Import necessay libraries
 from picamera import PiCamera, Color
 from time import sleep
 from datetime import datetime
